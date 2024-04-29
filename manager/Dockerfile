@@ -10,5 +10,5 @@ COPY ./integrations /var/ossec/data_tmp/exclusion/var/ossec/integrations
 RUN chown -R root:wazuh  /var/ossec/data_tmp/exclusion/var/ossec/integrations/
 
 # Config for files that shuld be updated
-COPY ./etc/local_internal_options.conf /var/ossec/etc/local_internal_options.conf
+COPY ./etc/ /var/ossec/data_tmp/etc/
 COPY ./permanent_data.env /
