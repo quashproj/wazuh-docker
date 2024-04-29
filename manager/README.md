@@ -9,8 +9,8 @@ Make sure to build an image for a specific version, do no t use **latest**. The 
 For examples:
 
 ```bash
-docker build -t ghcr.io/quashprj/wazuh-manager:4.7.3-1 .
-docker image push ghcr.io/quashprj/wazuh-manager:4.7.3-1
+docker build -t ghcr.io/quashproj/wazuh-manager:4.7.3-1 .
+docker image push ghcr.io/quashporj/wazuh-manager:4.7.3-1
 ```
 
 ## Integrations
