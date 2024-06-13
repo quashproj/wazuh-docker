@@ -9,7 +9,6 @@ from requests import packages
 # Silence insecure request warning
 requests.packages.urllib3.disable_warnings()
 
-
 # Define the source and destination paths
 source_path = sys.argv[1]
 
