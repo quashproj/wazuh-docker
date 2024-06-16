@@ -10,7 +10,7 @@ For examples:
 
 ```bash
 docker build -t ghcr.io/quashproj/wazuh-manager:4.7.3-2 .
-docker image push ghcr.io/quashporj/wazuh-manager:4.7.3-2
+docker image push ghcr.io/quashproj/wazuh-manager:4.7.3-2
 ```
 
 ## Integrations
