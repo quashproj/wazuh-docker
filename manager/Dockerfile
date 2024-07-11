@@ -1,4 +1,4 @@
-FROM 'wazuh/wazuh-manager:4.7.3'
+FROM 'wazuh/wazuh-manager:4.7.4'
 
 # Install thehive4py module
 RUN  /var/ossec/framework/python/bin/pip3 install thehive4py==1.8.1
